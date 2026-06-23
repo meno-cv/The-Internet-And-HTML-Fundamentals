@@ -10,3 +10,6 @@
     position: relative;
 }
 
+.underline {
+  text-decoration: underline;
+}
