@@ -1,3 +1,7 @@
+/* Fonts and Styling */
+
+
+/* Background Image */
 .bg-image{
     background-image: url("img/bg.jpg");
     background-size: cover;
@@ -5,11 +9,87 @@
     background-repeat: no-repeat;
 }
 
+/* General Page Styling */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f9fa;
+}
 
+/* Container */
 .container{
     position: relative;
 }
 
-.underline {
-  text-decoration: underline;
+/* Main Headingg*/
+.main-heading{
+    background-color: rgb(108, 230, 193);
+    color: darkcyan;
+    padding: 15px;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 20px auto;
+    font-weight: bold;
+}
+
+/* Section Headings */
+.section-heading{
+    color: darkcyan;
+    font-weight: bold;
+}
+
+.table-heading{
+    color: mediumaquamarine;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+
+/* Card Title */
+.section-title{
+    color: cornflowerblue;
+}
+
+/* Card Styling */
+.card{
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
+}
+
+/* Image Styling */
+.img-fluid{
+    border-radius: 10px;
+}
+
+/* Navigation */
+.nav{
+    padding: 10px;
+}
+
+
+/* Underline Class */
+.underline{
+    text-decoration: underline;
+}
+
+.custom-table{
+    background-color: white;
+    border: 2px solid black;
+}
+
+
+.custom-table th,
+.custom-table td{
+    border: 2px solid black !important;
+    padding: 10px;
+}
+
+.custom-table thead th{
+    background-color: lightgoldenrodyellow !important;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.custom-table th{
+    color: darkblue;
 }
