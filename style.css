@@ -1,13 +1,13 @@
 /* Fonts and Styling */
 
 
-/* Background Image */
+/* Background Image
 .bg-image{
     background-image: url("img/bg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
+} */
 
 /* General Page Styling */
 body{
@@ -34,6 +34,7 @@ body{
 /* Section Headings */
 .section-heading{
     color: darkcyan;
+    text-decoration:underline;
     font-weight: bold;
 }
 
