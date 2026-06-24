@@ -94,3 +94,26 @@ body{
 .custom-table th{
     color: darkblue;
 }
+
+.browser-logos{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.browser{
+    text-align: center;
+}
+
+.browser img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    transition: 0.3s;
+}
+
+.browser img:hover{
+    transform: scale(1.1);
+}
