@@ -9,322 +9,512 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="bgcolor">
+    <header>
+        <!-- Navigation Bar-->
+        <ul class="nav nav-tabs sticky-top bg-success-subtle shadow-sm">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#internet">Internet</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#how-it-works">How It Works</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#daily-life">Daily Life</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#browser">Browsers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#dns">DNS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#html-tags">HTML Tags</a>
+            </li>
+        </ul>
+        <!-- Nav end -->
 
-    <!-- Navigation Bar-->
-    <ul class="nav nav-tabs">
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#internet">Internet</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">How It Works</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Daily Life</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Browsers</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">DNS</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">HTML Tags</a>
-        </li>
-    </ul>
-    <!-- Nav end -->
+        <div class="text-center my-4">
+            <h1 class="main-heading">
+                - The Internet & HTML Fundamentals -
+            </h1>
+        </div>
+        <div class="mt-md-5"></div>
 
-    <div class="text-center my-4">
-        <h1 class="main-heading">
-            - The Internet & HTML Fundamentals -
-        </h1>
-    </div>
-    <div class="mt-md-5"></div>
+    </header>
 
-    <!-- Internet Section -->
-    <div class="container mb-5">
-        <div class="row align-items-center">
+    <main>
+        <!-- Section 1 : Internet -->
+        <section id="internet" class="container my-5">
+            <div class="container mb-5">
+                <div class="row align-items-center">
 
-            <div class="mt-md-5"></div>
+                    <div class="mt-md-5"></div>
 
-            <!-- Card Left side-->
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title section-title">
+                    <div class="text-center my-4">
+                        <h1 class="table-heading">
+                            Internet
+                        </h1>
+                    </div>
+                    <div class="mt-md-5"></div>
+
+                    <!-- Card Left side-->
+                    <article>
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title section-title class= card-text">What is the Internet</h5>
+                                    <p>
+                                        The Internet is a vast network of interconnected computers that allows for the
+                                        sharing
+                                        of
+                                        information and communication across the globe.
+                                    </p>
+                                    <p>As technology continues to advance, the Internet continues to grow and improve.
+                                        It
+                                        supports education, business, healthcare, and many other industries. Because of
+                                        its
+                                        importance, the Internet has become one of the most valuable inventions in
+                                        modern
+                                        history</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Image Right side-->
+                    <div class="col-md-6">
+                        <img width="87%" src="img/bg.jpg" class="img-fluid rounded" alt="Internet Image">
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- Section 2 : How does the Internet Work (DIAGRAM) -->
+
+        <section id="how-it-works" class="container my-5">
+            <div class="text-center my-5">
+
+                <hr class="my-5">
+
+                <h2 class="section-heading">How does the Internet Work?</h2>
+
+                <div class="my-5"></div>
+
+                <ul class="text-center w-75 mx-auto">
+
+                    <div class="container my-5">
+
+                        <!-- Client-Server Model -->
+                        <article>
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <h4 class="card-title underline">Client-Server Model</h4>
+                                    <p class="card-text">
+                                        The Client-Server Model is a communication system used on the Internet.
+                                        A client, such as a web browser, sends a request to a server.
+                                        The server processes the request and sends the required information
+                                        back to the client.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- HTTP -->
+                        <article>
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <h4 class="card-title underline">HTTP</h4>
+                                    <p class="card-text">
+                                        HTTP (HyperText Transfer Protocol) is the set of rules used for
+                                        transferring web pages and data between a browser and a web server.
+                                        It allows users to access websites and view online content.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- DNS -->
+                        <article>
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <h4 class="card-title underline">DNS</h4>
+                                    <p class="card-text">
+                                        DNS (Domain Name System) translates domain names such as
+                                        www.google.com into IP addresses that computers can understand.
+                                        This helps users access websites without remembering complex numbers.
+                                    </p>
+                                </div>
+                            </div>
+
+                    </div>
+                    </article>
+
+                    <h3 class="underline">Internet Request Flow :</h3>
+
+                    <div class="container my-5"></div>
+
+                    <div class="mt-4 oblique">
+                        <h3>User</h3>
+                        <p class="fs-1">↓</p>
+
+                        <h3>Browser</h3>
+                        <p class="fs-1">↓</p>
+
+                        <h3>DNS</h3>
+                        <p class="fs-1">↓</p>
+
+                        <h3>Server</h3>
+                        <p class="fs-1">↓</p>
+
+                        <h3>Website Loads</h3>
+                    </div>
+
+            </div>
+
+            <hr class="my-5">
+
+            <div class="my-lg-1"></div>
+
+        </section>
+
+        <!-- Section 3 : Internet Services (TABLE) -->
+        <section id="services" class="container my-5">
+            <div class="text-center my-5">
+
+                <h2 class="table-heading">
+                    The Main Services of the Internet
+                </h2>
+
+                <div class="my-md-5"></div>
+
+                <table class="table table-bordered custom-table w-75 mx-auto">
+
+                    <thead>
+                        <tr>
+                            <th>Internet Service</th>
+                            <th>What It Does</th>
+                            <th>Example :</th>
+                            <th>Why It's Useful</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>📧 Email</td>
+                            <td>Sends and receives messages online</td>
+                            <td>Gmail, Outlook</td>
+                            <td>Fast communication worldwide</td>
+                        </tr>
+
+                        <tr>
+                            <td>🌐 Web Browsing</td>
+                            <td>Accesses websites and information</td>
+                            <td>Google, Wikipedia</td>
+                            <td>Learning and research</td>
+                        </tr>
+
+                        <tr>
+                            <td>☁️ Cloud Storage</td>
+                            <td>Stores files on remote servers</td>
+                            <td>Google Drive, OneDrive</td>
+                            <td>Access files from anywhere</td>
+                        </tr>
+
+                        <tr>
+                            <td>📱 Social Media</td>
+                            <td>Connects and shares content with others</td>
+                            <td>Instagram, Facebook</td>
+                            <td>Communication and networking</td>
+                        </tr>
+
+                        <tr>
+                            <td>🏦 Online Banking</td>
+                            <td>Manages financial transactions online</td>
+                            <td>Commercial Bank App</td>
+                            <td>Convenient money management</td>
+                        </tr>
+
+                        <tr>
+                            <td>🎥 Streaming Services</td>
+                            <td>Delivers video and audio content</td>
+                            <td>YouTube, Netflix</td>
+                            <td>Entertainment and education</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+
+            <hr class="my-5">
+
+        </section>
+
+
+
+        <!-- Section 4 : Internet in Daily Life -->
+
+        <section id="daily-life" class="container my-5">
+
+            <div class="container my-5">
+
+                <h2 class="text-center mb-4 section-heading">Internet in Daily Life</h2>
+
+                <div class="row justify-content-center">
+
+                    <div class="container my-5"></div>
+
+                    <!-- Education -->
+                <article>
+                    <div class="col-md-6 mb-4">
+                        <div class="card mx-auto" style="width: 20rem;">
+                            <img src="img/IT Education.webp" class="card-img-top" alt="Education">
+                            <div class="card-body">
+                                <h5 class="card-title">🎓 Education</h5>
+                                <p class="card-text">
+                                    The Internet allows students to attend online classes,
+                                    access educational resources, and learn from anywhere.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                    <!-- Shopping -->
+                <article>
+                    <div class="col-md-6 mb-4">
+                        <div class="card mx-auto" style="width: 20rem;">
+                            <img src="img/Shopping.jpg" class="card-img-top" alt="Shopping">
+                            <div class="card-body">
+                                <h5 class="card-title">🛒 Shopping</h5>
+                                <p class="card-text">
+                                    People can purchase products online and have them delivered
+                                    directly to their homes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                    <!-- Communication -->
+                <article>
+                    <div class="col-md-6 mb-4">
+                        <div class="card mx-auto" style="width: 20rem;">
+                            <img src="img/Communication.webp" class="card-img-top" alt="Communication">
+                            <div class="card-body">
+                                <h5 class="card-title">💬 Communication</h5>
+                                <p class="card-text">
+                                    The Internet enables instant communication through email,
+                                    messaging apps, and video calls.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                    <!-- Entertainment -->
+                <article>
+                    <div class="col-md-6 mb-4">
+                        <div class="card mx-auto" style="width: 20rem;">
+                            <img src="img/Entertainment.webp" class="card-img-top" alt="Entertainment">
+                            <div class="card-body">
+                                <h5 class="card-title">🎮 Entertainment</h5>
+                                <p class="card-text">
+                                    Users can stream movies, listen to music, play games,
+                                    and enjoy various forms of online entertainment.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                </div>
+
+            </div>
+
+            <hr class="my-5">
+
+        </section>
+
+        <!-- Section 5 : Web Browsers -->
+        <section id="browser" class="container my-5">
+
+            <div class="container my-5">
+
+                <h2 class="text-center mb-4 table-heading">Web Browsers</h2>
+
+                <!-- Browser Logos -->
+                <div class="browser-logos">
+
+                    <div class="container my-3"></div>
+
+                    <div class="browser">
+                        <img src="https://cdn-icons-png.flaticon.com/512/300/300221.png" alt="Chrome">
+                        <p>Chrome</p>
+                    </div>
+
+                    <div class="browser">
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968827.png" alt="Firefox">
+                        <p>Firefox</p>
+                    </div>
+
+                    <div class="browser">
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968890.png" alt="Edge">
+                        <p>Edge</p>
+                    </div>
+
+                    <div class="browser">
+                        <img src="https://cdn-icons-png.flaticon.com/512/731/731985.png" alt="Safari">
+                        <p>Safari</p>
+                    </div>
+
+                </div>
+
+                <!-- Comparison Table -->
+                <table class="table table-hover mt-5">
+
+                    <div class="container my-5"></div>
+
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Browser</th>
+                            <th>Company</th>
+                            <th>Platform</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Chrome</td>
+                            <td>Google</td>
+                            <td>All</td>
+                        </tr>
+
+                        <tr>
+                            <td>Firefox</td>
+                            <td>Mozilla</td>
+                            <td>All</td>
+                        </tr>
+
+                        <tr>
+                            <td>Edge</td>
+                            <td>Microsoft</td>
+                            <td>Windows</td>
+                        </tr>
+
+                        <tr>
+                            <td>Safari</td>
+                            <td>Apple</td>
+                            <td>Mac/iPhone</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+            <hr class="my-5">
+
+            <div class="container my-5"></div>
+
+        </section>
+
+
+        <!-- Section 6 : DNS -->
+
+        <section id="dns" class="container my-5">
+
+            <h2 class="text-center mb-4 section-heading">Domain Name System (DNS)</h2>
+
+            <div class="row g-4">
+
+                <!-- What is DNS -->
+            <article>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title section-title">What is DNS?</h5>
                             <p class="card-text">
-                                The Internet is a vast network of interconnected computers that allows for the sharing
-                                of
-                                information and communication across the globe.
+                                The <b>Domain Name System (DNS)</b> is like the phonebook of the internet.
+                                It converts human-friendly domain names (like www.google.com) into IP addresses
+                                that computers use to locate websites.
                             </p>
-                            <p>As technology continues to advance, the Internet continues to grow and improve. It
-                                supports education, business, healthcare, and many other industries. Because of its
-                                importance, the Internet has become one of the most valuable inventions in modern
-                                history</p>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </article>
 
-            <!-- Image Right side-->
-            <div class="col-md-6">
-                <img width="87%" src="img/bg.jpg" class="img-fluid rounded" alt="Internet Image">
-            </div>
-
-        </div>
-    </div>
-
-    <!-- How does the Internet Work (DIAGRAM) -->
-    <div class="text-center my-5">
-
-        <hr class="my-5">
-
-        <h2 class="section-heading">How does the Internet Work?</h2>
-
-        <div class="my-5"></div>
-
-        <div class="mt-4">
-            <h3>User</h3>
-            <h1>🠫</h1>
-
-            <h3>Browser</h3>
-            <h1>🠫</h1>
-
-            <h3>DNS</h3>
-            <h1>🠫</h1>
-
-            <h3>Server</h3>
-            <h1>🠫</h1>
-
-            <h3>Website Loads</h3>
-        </div>
-
-    </div>
-
-    <hr class="my-5">
-
-    <div class="my-lg-1"></div>
-
-    <!-- Internet Services (TABLE) -->
-    <div class="text-center my-5">
-
-        <h2 class="table-heading">
-            The Main Services of the Internet
-        </h2>
-
-        <div class="my-md-5"></div>
-
-        <table class="table table-bordered custom-table w-75 mx-auto">
-
-            <thead>
-                <tr>
-                    <th>Internet Service</th>
-                    <th>What It Does</th>
-                    <th>Example :</th>
-                    <th>Why It's Useful</th>
-                </tr>
-            </thead>
-
-            <tbody>
-                <tr>
-                    <td>📧 Email</td>
-                    <td>Sends and receives messages online</td>
-                    <td>Gmail, Outlook</td>
-                    <td>Fast communication worldwide</td>
-                </tr>
-
-                <tr>
-                    <td>🌐 Web Browsing</td>
-                    <td>Accesses websites and information</td>
-                    <td>Google, Wikipedia</td>
-                    <td>Learning and research</td>
-                </tr>
-
-                <tr>
-                    <td>☁️ Cloud Storage</td>
-                    <td>Stores files on remote servers</td>
-                    <td>Google Drive, OneDrive</td>
-                    <td>Access files from anywhere</td>
-                </tr>
-
-                <tr>
-                    <td>📱 Social Media</td>
-                    <td>Connects and shares content with others</td>
-                    <td>Instagram, Facebook</td>
-                    <td>Communication and networking</td>
-                </tr>
-
-                <tr>
-                    <td>🏦 Online Banking</td>
-                    <td>Manages financial transactions online</td>
-                    <td>Commercial Bank App</td>
-                    <td>Convenient money management</td>
-                </tr>
-
-                <tr>
-                    <td>🎥 Streaming Services</td>
-                    <td>Delivers video and audio content</td>
-                    <td>YouTube, Netflix</td>
-                    <td>Entertainment and education</td>
-                </tr>
-            </tbody>
-
-        </table>
-    </div>
-
-    <hr class="my-5">
-
-    <!-- Internet in Daily Life -->
-
-    <div class="container my-5">
-
-        <h2 class="text-center mb-4 section-heading">Internet in Daily Life</h2>
-
-        <div class="row justify-content-center">
-
-            <div class="container my-5"></div>
-
-            <!-- Education -->
-            <div class="col-md-6 mb-4">
-                <div class="card mx-auto" style="width: 20rem;">
-                    <img src="img/IT Education.webp" class="card-img-top" alt="Education">
-                    <div class="card-body">
-                        <h5 class="card-title">🎓 Education</h5>
-                        <p class="card-text">
-                            The Internet allows students to attend online classes,
-                            access educational resources, and learn from anywhere.
-                        </p>
+                <!-- How dns works -->
+            <article>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title section-title">How DNS Works</h5>
+                            <p class="card-text">
+                                When you enter a website name, your browser checks for its IP address.
+                                If it doesn’t know it, a request is sent to a DNS server which finds and
+                                returns the correct IP address so the website can load.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </article>
 
-            <!-- Shopping -->
-            <div class="col-md-6 mb-4">
-                <div class="card mx-auto" style="width: 20rem;">
-                    <img src="img/Shopping.jpg" class="card-img-top" alt="Shopping">
-                    <div class="card-body">
-                        <h5 class="card-title">🛒 Shopping</h5>
-                        <p class="card-text">
-                            People can purchase products online and have them delivered
-                            directly to their homes.
-                        </p>
+                <!-- Eg -->
+            <article>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title section-title">Examples</h5>
+                            <ul>
+                                <li>www.google.com → IP address</li>
+                                <li>www.youtube.com → IP address</li>
+                                <li>www.facebook.com → IP address</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
+            </article>
             </div>
 
-            <!-- Communication -->
-            <div class="col-md-6 mb-4">
-                <div class="card mx-auto" style="width: 20rem;">
-                    <img src="img/Communication.webp" class="card-img-top" alt="Communication">
-                    <div class="card-body">
-                        <h5 class="card-title">💬 Communication</h5>
-                        <p class="card-text">
-                            The Internet enables instant communication through email,
-                            messaging apps, and video calls.
-                        </p>
-                    </div>
-                </div>
+            <!-- Flow Diagram -->
+        <article>
+            <div class="mt-5 p-4 bg-light rounded shadow">
+                <h4 class="text-center mb-3 underline">DNS Flow</h4>
+                <p class="text-center mb-0">
+                    User → Browser → DNS Resolver → Root Server → TLD Server → Authoritative Server → IP Address →
+                    Website
+                    Loads
+                </p>
+            </div>
+        </article>
+
+            <div class="text-center mt-5">
+                <img width="65%" src="img/how the dns work.png" alt="How dns works" class="img-fluid rounded shadow">
             </div>
 
-            <!-- Entertainment -->
-            <div class="col-md-6 mb-4">
-                <div class="card mx-auto" style="width: 20rem;">
-                    <img src="img/Entertainment.webp" class="card-img-top" alt="Entertainment">
-                    <div class="card-body">
-                        <h5 class="card-title">🎮 Entertainment</h5>
-                        <p class="card-text">
-                            Users can stream movies, listen to music, play games,
-                            and enjoy various forms of online entertainment.
-                        </p>
-                    </div>
-                </div>
-            </div>
+        </section>
 
-        </div>
+        <!-- Section 7 : HTML TAGS -->
 
-    </div>
 
-    <hr class="my-5">
 
-    <!-- Web Browsers -->
 
-    <div class="container my-5">
 
-        <h2 class="text-center mb-4 table-heading">Web Browsers</h2>
 
-        <!-- Browser Logos -->
-        <div class="browser-logos">
 
-            <div class="container my-3"></div>
 
-            <div class="browser">
-                <img src="https://cdn-icons-png.flaticon.com/512/300/300221.png" alt="Chrome">
-                <p>Chrome</p>
-            </div>
 
-            <div class="browser">
-                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968827.png" alt="Firefox">
-                <p>Firefox</p>
-            </div>
+    </main>
 
-            <div class="browser">
-                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968890.png" alt="Edge">
-                <p>Edge</p>
-            </div>
-
-            <div class="browser">
-                <img src="https://cdn-icons-png.flaticon.com/512/731/731985.png" alt="Safari">
-                <p>Safari</p>
-            </div>
-
-        </div>
-
-        <!-- Comparison Table -->
-        <table class="table table-hover mt-5">
-
-            <div class="container my-5"></div>
-            
-            <thead class="table-dark">
-                <tr>
-                    <th>Browser</th>
-                    <th>Company</th>
-                    <th>Platform</th>
-                </tr>
-            </thead>
-
-            <tbody>
-                <tr>
-                    <td>Chrome</td>
-                    <td>Google</td>
-                    <td>All</td>
-                </tr>
-
-                <tr>
-                    <td>Firefox</td>
-                    <td>Mozilla</td>
-                    <td>All</td>
-                </tr>
-
-                <tr>
-                    <td>Edge</td>
-                    <td>Microsoft</td>
-                    <td>Windows</td>
-                </tr>
-
-                <tr>
-                    <td>Safari</td>
-                    <td>Apple</td>
-                    <td>Mac/iPhone</td>
-                </tr>
-            </tbody>
-        </table>
-
-    </div>
 
 
 
