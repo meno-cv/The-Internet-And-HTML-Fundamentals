@@ -100,6 +100,8 @@ body{
 }
 
 
+
+
 .custom-table th,
 .custom-table td{
     border: 2px solid black !important;
@@ -137,4 +139,46 @@ body{
 
 .browser img:hover{
     transform: scale(1.1);
+}
+
+
+/* table improvement */
+
+.custom-table{
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 2px solid darkcyan;
+}
+
+/* Table Header */
+.custom-table thead th{
+    background-color: darkcyan !important;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Table Cells */
+.custom-table td,
+.custom-table th{
+    border: 1px solid #ddd !important;
+    padding: 12px;
+    vertical-align: middle;
+}
+
+/* Code Stylinng */
+.custom-table code{
+    background-color: #f1f1f1;
+    color: cornflowerblue;
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+
+
+/* Responsive spacing fix */
+.table-responsive{
+    border-radius: 12px;
+    overflow: hidden;
 }
